@@ -26,6 +26,6 @@ At the beginning of the code you will find some setting options. Basically, you 
 ## Hardware Setup (Circuit)
 
 ## Release Notes
-* 0.1 - Initial Release Pre-Alpha (23.08.2020)
+* v0.1 - Initial Release (23.08.2020)
 
 ## Disclaimer
