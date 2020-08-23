@@ -9,10 +9,12 @@ Modern vehicles indicate the force of braking via the brake lights. A two-stage 
 The module is designed that it can be integrated into the existing vehicle wiring. Since the Arduino needs less voltage than the on-board power supply, I use a step-down regulator to feed the Arduino. More about this in the Circuit section. 
 
 Must be connected: 
-* Brake pedal switch
-* Potentiometer / Accelerometer
-* 12V on-board voltage
-* Brake lights
+* Brake pedal switch (Blue-Red) - Please note some switches connecting to B- others to B+, depending on year and model. Please check yours first and modify the software settings! 
+* 12V on-board voltage (Kl.R with Fuse)
+* Brake lights (e.g. Black-Green (54L), Black-Grey(54M), Black-White(54R))
+
+Nice to connect: 
+* Relay to switch between LSZ signal to brake lights and Arduino signal to brake lights
 
 Basically the board can be used with a potentiometer on the brake pedal, which detects the brake pedal position, or with an acceleration sensor. The advantage of the sensor is that nothing needs to be added to the pedal. You can also switch the BFD function on and off with a dip switch. The changes will be used after restart.
 
@@ -24,7 +26,9 @@ I used two fallback methods during design to ensure the brake light works:
 At the beginning of the code you will find some setting options. Basically, you can define the threshold values from which braking or emergency braking is detected (pedal position and time). Furthermore you can define the blinking frequency per second and the distribution between ON and OFF times per blinking cycle. Of course you can also define the output pins if you have a different setup. Please let me know if you are missing any settings or you find any mistakes.
 
 ## Hardware Setup (Circuit)
-
+I wanted to keep the hardware setup as simple as possible and in a form so that it could be placed on a board in the next version or even be used with a simple ATMEGA chip. 
+Basically I only use a few pulldown resistors at the inputs, a few switches to realize the functions and a variable resistor (potentiometer or accelerometer). 
+The brake lights are classic bulbs on the old cars, so I cannot control them directly via the Arduino. Therefore I decided to use a NPN transistor and a P-Mosfet to switch to the bulbs via the signal of the Arduino 12V.
 
 ## Release Notes
 * v0.1 - Initial Release (23.08.2020)
