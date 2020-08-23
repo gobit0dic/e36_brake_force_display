@@ -1,5 +1,5 @@
-# e36_brake_force_display
-Small arduino project to retrofit a BFD function (as known from E90) to the old E-Series
+# E36 Brake Force Display (BFD) (Not for road use)
+Small arduino project to retrofit a BFD function (as known from E90) to the old E-Series. Please note that you will only use this function on closed tracks and not on road vehicles. In most countries it is illegal to modify safety equipment such as the circuit of the brake lights in road traffic.
 
 
 ## Idea
