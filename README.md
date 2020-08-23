@@ -32,6 +32,8 @@ I wanted to keep the hardware setup as simple as possible and in a form so that 
 Basically I only use a few pulldown resistors at the inputs, a few switches to realize the functions and a variable resistor (potentiometer or accelerometer). 
 The brake lights are classic bulbs on the old cars, so I cannot control them directly via the Arduino. Therefore I decided to use a NPN transistor and a P-Mosfet to switch to the bulbs via the signal of the Arduino 12V.
 
+![alt text](https://github.com/gobit0dic/e36_brake_force_display/blob/master/static/img/circuit.png?raw=true)
+
 ## Release Notes
 * v0.1 - Initial Release (23.08.2020)
 
