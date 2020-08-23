@@ -25,7 +25,9 @@ At the beginning of the code you will find some setting options. Basically, you 
 
 ## Hardware Setup (Circuit)
 
+
 ## Release Notes
 * v0.1 - Initial Release (23.08.2020)
 
 ## Disclaimer
+Please note that you will only use this function on closed tracks and not on road vehicles. In most countries it is illegal to modify safety equipment such as the circuit of the brake lights in road traffic. Please let me know if you are missing any settings or you find any mistakes.
