@@ -8,6 +8,8 @@ Modern vehicles indicate the force of braking via the brake lights. A two-stage 
 ## Installation & Fallback 
 The module is designed that it can be integrated into the existing vehicle wiring. Since the Arduino needs less voltage than the on-board power supply, I use a step-down regulator to feed the Arduino. More about this in the Circuit section. 
 
+![alt text](https://github.com/gobit0dic/e36_brake_force_display/blob/master/static/img/circuit_pretty.png?raw=true)
+
 Must be connected: 
 * Brake pedal switch (Blue-Red) - Please note some switches connecting to B- others to B+, depending on year and model. Please check yours first and modify the software settings! 
 * 12V on-board voltage (Kl.R with Fuse)
