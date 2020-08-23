@@ -7,7 +7,7 @@ Modern vehicles indicate the force of braking via the brake lights. A two-stage 
 
 Example from a E60 (not my video):
 
-[![Watch the video](https://gifs.com/gif/bmw-e60-brake-force-display-XLKq0l)](https://youtu.be/gSiLDY-abRU?t=33)
+[![Watch the video](https://j.gifs.com/XLKq0l.gif)](https://youtu.be/gSiLDY-abRU?t=33)
 
 
 ## Installation & Fallback 
